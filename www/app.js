@@ -11,7 +11,7 @@ var routes = require('./routes/index');
 var app = module.exports = express();
 // view engine setup
 app.set('port', process.env.PORT || 8000);
-app.set('views', __dirname + '\\public\\views');
+app.set('views', __dirname + '\\views');
 app.set('view engine', 'ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
