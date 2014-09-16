@@ -1,0 +1,13 @@
+//this file tells Node.js what is needed to run the server. 'npm install' will get node package manager to
+//automatically download and install the dependencies.
+{
+    "name" : "webtechnologies",
+    "dependencies" : {
+        "connect" : "*",
+        "fs" : "*",
+        "express": "*",
+        "path" : "*",
+        "socket.io" : "*",
+        "ejs" : "*"
+    }
+}
